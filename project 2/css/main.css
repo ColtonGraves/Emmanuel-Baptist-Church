@@ -1,0 +1,429 @@
+ html {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+ a {
+  text-decoration: none;
+  color: black;
+  
+}
+
+/*HOME PAGE TEXT*/
+#homeheader {
+  margin: -4px 0 0 0;
+  padding:0;
+
+}
+
+.homepagetext {
+  width: 95%;
+  margin:auto;
+}
+
+.homepagetext h1 {
+  text-align: center;
+}
+
+  
+/*HOME PAGE CONTROL*/
+
+#homeimg {
+  width: 100%;
+}
+
+
+#control{
+  width:59%;
+  display:inline-block;
+  vertical-align: top;
+  height: 350px;
+  margin:0;
+  padding:0;
+    
+
+}
+
+#control ul {
+  margin:0;
+  padding: 0;
+  height: 350px;
+}
+
+
+
+#control ul li {
+  display:inline-block;
+  list-style: none;
+  height:175px;
+  width:49%;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 190.5px;
+  padding: 0;
+  margin:0;
+}
+
+#control ul .htc {
+  margin-bottom: 5px;
+  font-size: 115%;
+  font-weight: 600;
+}
+
+/*HOME PAGE MAP*/
+
+
+
+#map{
+  height: 350px;
+  width: 40%;
+  display: inline-block;
+  padding: 0;
+  margin:0;
+}
+
+/*TESTING GROUNDS*/
+
+
+
+/*********NAVIGATION*********/
+
+#logo {
+    float: left;
+    margin-left: 0;
+    text-align: center;
+    width: 35%;
+    height: 175px;
+    background-color: #d3ceaa;
+  }
+
+#logo h1 {
+  margin-top: 43px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  background: none;
+  float: right;
+  width: 65%;
+  font-size: 1.1em;
+  background-color: #d3ceaa;
+  height: 175px;
+  vertical-align: top;
+
+}
+
+nav ul {
+  list-style: none;
+  margin:35px 0;
+  padding: 30px 5px;
+  background-color: #fbf7e4;
+}
+
+nav li {
+  display: inline-block;
+  background-color: #e7e8d1;
+  padding: 7px 3px;
+  margin: 0 2px;
+  color: #8e001c;
+}
+
+
+
+nav a {
+  font-weight: 200;
+  padding: 15px 10px;
+}
+
+header nav ul li:hover { 
+  background-color: #8e001c;
+  
+}
+
+header nav ul li a:hover {
+  color:#fbf7e4; }
+
+
+
+#staffh {
+  background-color: #fbf7e4;
+}
+
+#eventsh {
+  background-color: #d3ceaa;
+}
+
+#classesh {
+  background-color: #e7e8d1;
+}
+
+#youthh {
+  background-color: #d3ceaa;
+}
+
+/*EVENTS*/
+
+.eventsimg {
+  width: 60%;
+  margin: 5px 0 5px -40px;
+  text-align: center;
+}
+
+#eventsleft {
+  width: 49%;
+  margin: 0 -8% 0 8%;
+  padding:0;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#eventsleft ul {
+  list-style: none;
+}
+
+#eventsright {
+  width: 49%;
+  padding:0;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+#eventsright ul {
+  list-style: none;
+}
+
+#eventsright ul li {
+  margin: 5px 0 5px 0;
+
+}
+
+
+/******STAFF******/
+
+.stafstuf {
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 15px;
+  width: 70%;
+}
+
+.staffitem {
+  width:100%;
+  margin: 5px 0 5px 5%;
+  
+}
+
+.staffitem img {
+  width: 20%;
+  max-width: 150px;
+}
+
+
+/***CLASSES****/
+.classlist li {
+  margin:0;
+  padding:0;
+  list-style: none;
+  display: inline-block;
+  width: 47%;
+  vertical-align: top;
+
+}
+
+
+
+/******YOUTH*******/
+
+
+#youthtext {
+  margin:5px 0 0 0;
+  padding:0;
+  width: 50%;
+  float:right;
+}
+
+.fblogo {
+  width:15px;
+}
+
+#shoutout {
+  text-align: center;
+  margin-left: -60px;
+}
+
+#youthimgs {
+  margin: 5px 0 0 0;
+  width: 50%;
+  float:left;
+}
+
+.youthimg{
+  width: 90%;
+}
+
+
+/*FOOTER***************************************************/
+
+  .footer {
+  width:100%;
+  background-color: #d3ceaa;
+  clear: both;
+  font-size: .95em;
+  text-align: center;
+  padding-bottom: 1px;
+  
+}
+
+hr{
+  border-color: #8e001c;
+  border-width: 3px;
+  border-style: solid;
+}
+
+
+/*******************************************************************************RESPONSIVE******************************************************************************************/
+
+@media screen and (max-width: 600px) {
+
+  
+  .homepagetext {
+    text-align: center;
+  }
+  
+  #control{
+  width:100%;
+  display:inline-block;
+  margin:0 0 350px 0;
+  padding:0;
+  
+  }
+  
+  #control ul {
+  margin:0 0 350px 0;
+  padding: 0;
+}
+  
+ #control ul li {
+  display:inline-block;
+  list-style: none;
+  height:175px;
+  width:100%;
+  text-align: center;
+  padding: 0;
+  margin:0;
+    clear: both;
+} 
+    
+  #map{
+  height: 350px;
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+  margin:0;
+  clear: both;
+}
+
+  #control ul .htc {
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+  
+  #logo {
+    width: 100%;
+   margin-bottom: -50px;
+  }
+  
+  nav {
+    width: 100%
+  }
+  
+  
+  #eventsleft {
+  width: 100%;
+  margin: 0;
+  
+  }
+  
+  #eventsright {
+  width: 100%;
+  margin: 0;
+}
+  
+  .stafstuf {
+  vertical-align: top;
+  display:inline-block;
+  margin-left: 0;
+    text-align: center;
+    width:100%;
+}
+
+.staffitem {
+  width:100%;
+  margin: 0;
+}
+
+.staffitem img {
+  width: 40%;
+  max-width: 150px;
+  margin: 0 35%;
+}
+  
+  #youthtext {
+  margin:0;
+  padding:0;
+  width: 100%;
+  float:none;
+  text-align: center;
+}
+
+.fblogo {
+  width:15px;
+}
+
+#shoutout {
+  text-align: center;
+  margin-left: 0;
+  
+}
+
+#youthimgs {
+  margin: 0;
+  width: 100%;
+  float:none;
+  text-align: center;
+}
+
+.youthimg{
+  width: 90%;
+}
+  
+  
+  .classlist li {
+  margin:0;
+  padding:0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+
+}
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
